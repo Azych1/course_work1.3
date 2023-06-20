@@ -68,7 +68,7 @@ public class Employee {
     }
 
     public String getFullName() {
-        return surname +" "+ name +" "+ patronymic;
+        return surname + " " + name + " " + patronymic;
     }
 
     public String toStringExceptDepartment() {
@@ -91,6 +91,7 @@ public class Employee {
                 '}';
     }
 }
+
 
 
 
